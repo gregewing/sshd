@@ -2,7 +2,7 @@
 
 sshd with logging to syslog on host (works with docker-fail2ban)
 
-Inspiration for this container image was taken from panubo/docker-sshd.
+Inspiration for this container image was taken from panubo/docker-sshd. Thanks :-)
 
 I've added in logging via syslog, to a logfile held in a volume. In this way the Host machine can monitor the logfile.
 
